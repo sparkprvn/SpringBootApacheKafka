@@ -1,4 +1,4 @@
-package com.javainuse.service;
+package com.springboot_kafka.service;
 
 
 import java.util.HashMap;
@@ -17,6 +17,8 @@ import org.springframework.kafka.core.ProducerFactory;
 public class KafkaSenderConfig {
 	
 	@Value("192.168.140.49:9092")
+	// replace with your kafka broker or list of kafka brokers
+	// brokers can be read from a config file as well
     private String bootstrapServers;
 	
 	
