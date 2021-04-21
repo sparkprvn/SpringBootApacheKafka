@@ -1,15 +1,15 @@
-package com.javainuse;
+package com.springboot_kafka;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootHelloWorldApplication {
+public class SpringBootKafkaApplication {
 
 	public static void main(String[] args) {
 
 		SpringApplication.run(
-				new Object[] { SpringBootHelloWorldApplication.class }, args);
+				new Object[] { SpringBootKafkaApplication.class }, args);
 	}
 }
 
