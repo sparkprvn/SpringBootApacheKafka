@@ -1,4 +1,4 @@
-package com.javainuse.service;
+package com.sprintboot_kafka.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaTemplate;
@@ -10,7 +10,7 @@ public class KafkaSender {
 	@Autowired
 	private KafkaTemplate<String, String> kafkaTemplate;
 	
-	String kafkaTopic = "java_in_use_topic";
+	String kafkaTopic = "kafka_topic";
 	
 	public void send(String data) {
 	    
