@@ -1,4 +1,4 @@
-package com.javainuse.controller;
+package com.sprintboot_kafka.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
